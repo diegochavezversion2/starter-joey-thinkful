@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #0B1C51;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 52px;
+    color: white;
+    margin: 10px;
+    font-family: Monteserrat;
+}
+
+header nav {
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-family: Monteserrat;
+    color: white;
+    text-decoration: none;
+}
+
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 48px;
+    }
+
+    header nav, header h1 {
+        margin: 10px;
+    }
+}
